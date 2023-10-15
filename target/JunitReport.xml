@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="3" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="0.269">
+    <testcase classname="Sauce lab login scenario" name="User performs login" time="0.067">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given User is on Login page.................................................undefined
+When user give valid "standard_user" and valid "secret_sauce"...............skipped
+And user clicks on login button.............................................skipped
+Then user should be able to see the "Products" page.........................skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Sauce lab login scenario" name="User performs login 2" time="0.001">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given User is on Login page.................................................undefined
+When user give valid "problem_user" and valid "secret_sauce"................skipped
+And user clicks on login button.............................................skipped
+Then user should be able to see the "Products" page.........................skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Sauce lab regression scenario" name="User performs complete happy flow from login to checkout" time="0.031">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given User is on Login page.................................................undefined
+When user give valid "standard_user" and valid "secret_sauce"...............skipped
+And user clicks on login button.............................................skipped
+Then user should be able to see the "Products" page.........................skipped
+Then user selects two products..............................................skipped
+And user clicks on the cart icon............................................skipped
+And user performs checkout..................................................skipped
+Then user enter it's "<firstName>" "<lastName>" "<postalCode>"..............skipped
+And user clicks on continue.................................................skipped
+Then user can see the "Checkout: Overview" information......................skipped
+Then user can see finish it's order by clicking on finish button............skipped
+]]></failure>
+    </testcase>
+</testsuite>
